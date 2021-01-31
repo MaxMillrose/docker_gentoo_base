@@ -1,0 +1,9 @@
+# required by dev-util/ghidra-9.1::pentoo
+# required by ghidra (argument)
+# /usr/portage/profiles/package.mask:
+# James Le Cuirot <chewi@gentoo.org> (2017-12-17)
+# Java 9+ is not yet fully supported on Gentoo. Packages cannot depend
+# on it so these virtuals are not yet required. If you wish to use
+# Java 9+ then install oracle-(jdk|jre)-bin or openjdk(-bin) directly.
+=virtual/jdk-11
+=x11-terms/st-9999 

@@ -1,0 +1,32 @@
+# required by unrar (argument)
+app-arch/unrar unRAR
+# required by www-client/google-chrome (argument)
+www-client/google-chrome google-chrome
+# required by linux-firmware (argument)
+sys-kernel/linux-firmware linux-fw-redistributable no-source-code
+# required by makemkv (argument)
+=media-video/makemkv-1.14.5 MakeMKV-EULA
+app-text/agrep AGREP
+# required by virtualbox-extpack-oracle (argument)
+=app-emulation/virtualbox-extpack-oracle-6.0.24.139119 PUEL
+app-emulation/virtualbox-extpack-oracle PUEL-10
+
+
+games-fps/gzdoom Activision ChexQuest3 DOOM-COLLECTORS-EDITION freedist
+
+# required by avp (argument)
+>=games-fps/avp-20150214-r1 AvP
+# required by games-fps/ut2003-demo (argument)
+>=games-fps/ut2003-demo-2206-r4 ut2003-demo
+# required by ut2004-demo (argument)
+>=games-fps/ut2004-demo-3334-r1 ut2003-demo
+# required by dev-java/netbeans-java-9999_p20180332::fordfrog
+# required by dev-java/netbeans-apisupport-9999_p20180332::fordfrog
+# required by dev-util/netbeans-9999_p20180332::fordfrog[netbeans_modules_apisupport]
+# required by netbeans (argument)
+>=dev-java/jsr67-1.3-r1 sun-jsr67
+# required by dev-java/netbeans-platform-9999_p20180332::fordfrog
+# required by dev-java/netbeans-apisupport-9999_p20180332::fordfrog
+# required by dev-util/netbeans-9999_p20180332::fordfrog[netbeans_modules_apisupport]
+# required by netbeans (argument)
+>=dev-java/osgi-compendium-4.3.1 OSGi-Specification-2.0

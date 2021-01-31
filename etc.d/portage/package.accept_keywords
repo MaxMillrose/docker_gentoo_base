@@ -1,0 +1,8 @@
+dev-java/openjdk ~amd64
+sys-cluster/minikube ~amd64
+sys-cluster/kubernetes ~amd64
+
+# requirements for podman / libpod
+app-emulation/libpod ~amd64
+app-emulation/conmon ~amd64
+app-emulation/slirp4netns ~amd64

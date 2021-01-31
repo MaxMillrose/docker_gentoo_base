@@ -1,0 +1,26 @@
+media-sound/pulseaudio
+# needed for Hacknet, hence not masked and commented out
+#gnome-base/gconf
+
+
+# block source rust, since we use the binary
+dev-lang/rust
+
+# Some packages rely on lynx, hence we have to keep it
+# rest of browsers can be blocked
+#www-client/lynx
+www-client/links
+www-client/w3m
+www-client/w3mmee
+www-client/elinks
+
+# Emacs stuff. This is a vim household
+app-editors/xemacs
+app-xemacs/xemacs-base
+app-xemacs/emerge
+
+
+#app-emulation/qemu
+games-roguelike/neon-chrome
+games-engines/scummvm
+www-servers/tornado

@@ -1,0 +1,16 @@
+app-emacs/*
+#games-*/*
+#kde-*/*
+gnustep-*/*
+media-sound/pulseaudio
+dev-lang/rust
+
+www-client/links
+www-client/w3m
+www-client/w3mmee
+www-client/elinks
+
+app-editors/xemacs
+app-xemacs/xemacs-base
+app-xemacs/emerge
+games-roguelike/neon-chrome
